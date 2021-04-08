@@ -38,7 +38,7 @@
         .menu div {
             background-color: #bcc3c7;
             width: 40px;
-            height: 4px;
+            height: 1px;
             margin: 3.5px 0;
         }
         
@@ -94,6 +94,20 @@
             div.background h4,
             div.background p {
                 padding: 0.4rem;
+            }
+            input[type="text"],
+            input[type="email"],
+            textarea {
+                width: 100%;
+                margin: 0.5rem 0;
+            }
+            div.footer-input {
+                flex-wrap: wrap;
+            }
+            div.footer-btn a {
+                width: 100%;
+                display: flex;
+                justify-content: center;
             }
         }
         
