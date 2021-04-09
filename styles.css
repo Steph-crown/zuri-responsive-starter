@@ -397,7 +397,7 @@
     }
     
     ul.sm-show {
-        display: flex;
+        display: none;
         position: fixed;
         transition: 2s ease;
         right: 0;
@@ -423,5 +423,5 @@
         top: 1rem;
         z-index: 4;
         color: #88949B;
-        ;
+        display: none;
     }
